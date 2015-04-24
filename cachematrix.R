@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve checks to see if there is an matrix inverse stored in setInverse. If so, the function
+## cacheSolve checks to see if there is a matrix inverse stored with getInverse. If so, the function
 ## returns the inverse and completes. If not,the function will get the input matrix, calculate the inverse 
 ## and store it in setInverse. You must call this function to set the matrix inverse for the first time
 ## and pass in the output of makeCacheMatrix as the input parameterto the cacheSolve function.
